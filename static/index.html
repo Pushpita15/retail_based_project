@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pincode Serviceability Checker</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pincode Serviceability Checker</h1>
+        <form id="pincodeForm">
+            <label for="jsonFileInput">Upload JSON File:</label>
+            <input type="file" id="jsonFileInput" name="jsonFile">
+            <br>
+            <label for="pincodeInput">Enter Pincode:</label>
+            <input type="text" id="pincodeInput" name="pincode">
+            <br>
+            <button type="submit">Check Serviceability</button>
+        </form>
+    </div>
+    <div class="output">
+        <h2>Result:</h2>
+        <p id="result"></p>
+        
+    </div>
+</body>
+</html>
