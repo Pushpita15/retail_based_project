@@ -1,0 +1,4 @@
+applications:
+- name: <app_name>
+  random-route: true
+  memory: 256M
