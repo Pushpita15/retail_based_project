@@ -1,4 +1,4 @@
 applications:
-- name: <app_name>
+- name: pincode-service
   random-route: true
   memory: 256M
